@@ -1,5 +1,5 @@
 Name:           anki-bin
-Version:        26.09
+Version:        26.09.2
 Release:        1%{?dist}
 Summary:        Intelligent spaced-repetition flashcard program (upstream binary package)
 
@@ -94,6 +94,8 @@ xmllint --noout %{buildroot}%{_datadir}/mime/packages/anki.xml
 
 
 %changelog
+* Tue Sep 15 2026 Ponesicek <ponesicek@users.noreply.github.com> - 26.09.2-1
+- Package upstream Anki 26.09.2 binary release
 * Mon Sep 14 2026 Ponesicek <ponesicek@users.noreply.github.com> - 26.09-1
 - Package upstream Anki 26.09 binary release
 * Wed Aug 12 2026 Ponesicek <ponesicek@users.noreply.github.com> - 26.08.1-1
